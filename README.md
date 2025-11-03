@@ -137,7 +137,9 @@ Adjust these with command-line options to match your quality requirements.
 
 ### Versioning
 
-The version is managed in `src/vcf2bedgraph/__about__.py` and automatically read by the build system through `pyproject.toml`.
+The version is managed directly in `pyproject.toml` and read dynamically by the package at runtime using `importlib.metadata`.
+
+To manage the version, use the `uv version` command which automatically updates `pyproject.toml`, `uv.lock`, and rebuilds the lock file.
 
 ### Bumping the version
 
