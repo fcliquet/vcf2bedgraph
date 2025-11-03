@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "vcf2bedgraph"
-dynamic = ["version"]
+version = "0.1.0"
 description = "Convert VCF files to BedGraph format"
 readme = "README.md"
 requires-python = ">=3.8"
@@ -31,6 +31,3 @@ Issues = "https://github.com/fcliquet/vcf2bedgraph/issues"
 
 [project.scripts]
 vcf2bedgraph = "vcf2bedgraph.cli:main"
-
-[tool.hatch.version]
-path = "src/vcf2bedgraph/__about__.py"
