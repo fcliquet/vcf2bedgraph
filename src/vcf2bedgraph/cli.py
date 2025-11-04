@@ -40,8 +40,8 @@ def main() -> None:
     parser.add_argument(
         "--filter-qual",
         type=int,
-        default=20,
-        help="Minimum variant quality threshold (default: 20)",
+        default=30,
+        help="Minimum variant quality threshold (default: 30)",
     )
     parser.add_argument(
         "--no-compress",

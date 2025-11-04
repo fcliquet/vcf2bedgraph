@@ -1,4 +1,4 @@
-FROM astral/uv:python3.12-bookworm-slim
+FROM astral/uv:python3.12-bookworm
 
 # Set working directory
 WORKDIR /app
